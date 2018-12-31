@@ -1,0 +1,16 @@
+{
+  "name": "logging-api",
+  "version": "1.0.0",
+  "description": "api for event logging",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "touch server.js"
+  },
+  "author": "abdul-baseer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  }
+}
